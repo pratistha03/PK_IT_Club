@@ -5,90 +5,92 @@
     <title>
         PKITClub
     </title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
     <style>
-        body {
-            margin: 0px;
-        }
-
-        header {
-            background-color:rgba(6,62,138,0.9);
-            display: inline-flex;
-            width: 100%;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.5%;
-        }
-
-        #logan {
-            display: inline-flex;
-            align-items: center;
-            justify-content: flex-start;
-            
-        }
-
-         h1 {
-            font-family: cursive;
-            align-items: center;
-            font-size: small;
-        }
-
-        nav {
-            overflow: hidden;
-        }
-
-        header nav {
-            float: inline-end;
-        }
-
-        header nav a {
-            margin: 10px;
-            font-weight: bolder;
-            text-decoration: none;
-            color: aliceblue;
-        }
-
-        header nav a:hover {
-            float: top;
-            text-decoration: underline;
-            color:white;
-        }
-
-        footer {
-            clear: both;
-            background-color: rgba(6,62,138,0.9);
-            text-align: center;
-            color: aliceblue;
+        header{
+            background-image: url('images/home.jpg');
         }
     </style>
-
 </head>
 
 <body>
-    <header>
-        <!--logo and slogan-->
+    <header >
+        
+       <div id="heading">
+            <!--logo and slogan-->
         <div id="logan">
-            <img src="C:\Web tech project\pk.jpg" height="75" width="75" style="border-radius: 50px;">
-            
+            <table>
+                <tr>
+                    <th> <img src="images\pk.jpg" height="75" width="75" style="border-radius: 50px;"></th>
+                    <th><h1>Empowering Women Through Tech</h1></th>
+                </tr>
+            </table>            
         </div>
 
         <!--Nav list-->
         <nav>
             <a href="index.html">Home</a>
-            <a href="index.html">About us</a>
-            <a href="index.html">Workshop</a>
-            <a href="index.html">Members</a>
+            <a href="notice.html">Notice</a>
+            <a href="Workshop.html">Workshop</a>
+            <a href="Membership.html">Members</a>
         </nav>
+       </div>
+       
+       <div id="home1">
+        <div class="text" ><h1>Welcome 
+           <br> to <br> PK IT Club<br></h1>
+           <h1 style="text-decoration:underline;" >Together We Can</h1>
+        </div>
+    </div>
 
     </header>
+    <section>
+        <!--Body of about-->
+    <h1>Hi! We are PKIT Club </h1>
+    <!--About us-->
+    <div id="about">
+        <!--Description about us-->
+        <div class="description">
+           A club formed by students of Padmakanya Multiple Campus to acquire the latest skills in 
+           IT apart from the regular syllabus providing a friendly environment to work independently and grow together.
+        </div>
 
-    <!--Slogan-->
-        <center>
-            <h1>Empowering Women Through Tech</h1>
-        </center>
+        <!--about our team-->
+        <h1><b>ABOUT OUR TEAM</b></h1>
+
+        <!--team description-->
+        <div class="description">
+            PK-IT Club is a student organization established by the students of PadmaKanya Campus pursuing CSIT whose
+             motive is to look after the personal and professional development with leadership skills. 
+        </div>
+    </div>
+    <!--Mission, Vision and Goal-->
+    <center>
+        <div id="mvg">
+            <img src="images/Mission.jpg" width="250px" height="300px">
+            <img src="images/vision.jpg" width="250px" height="300px">
+            <img src="images/goal.jpg" width="250px" height="300px">
+        </div>
+    </center>
+    </section>
+    
         
-    <footer>
-        <p>PKITClub, copyright &copy; 2021</p>
-    </footer>
+   <!--Footer-->
+   <footer>
+    <table style="font-family: 'Courier New', Courier, monospace; font-size: large;">
+        <tr>
+            <td>The club is always here to help you and welcomes you to all upcoming events.
+                <br> Padmakanya Multiple Campus | Bagbazar, Kathmandu 
+             
+                <h4 style="margin-bottom: 0%;">Contact us</h4><br>
+                <a href= "https://www.facebook.com/PK-IT-Club-113427556779336/"> <img src="images/fb.jpg" height=25 widht=25></a>
+                <a href="mailto:pkitclub5@gmail.com"><img src="images/gmail.jpg" height="25" width="25"> </a>
+            </td>
+    </table>
+    <hr>
+    <p>PKITClub, copyright &copy; 2021</p>
+</footer>
 </body>
 
 </html>

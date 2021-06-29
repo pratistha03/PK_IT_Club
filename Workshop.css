@@ -1,0 +1,30 @@
+section{
+    display: inline-flex;
+}
+#first{
+    display: block;
+   
+    border: 1px black;
+    border-style: solid;
+    border-radius: 1%;
+    width:35%;
+    margin-left: 10%;;
+    margin-top: 5%;
+    background-color:white;
+}
+#first img{
+    width:100%;
+    height: 450px;
+    margin: 0px auto;
+}
+dl{
+    text-align: center;
+    color:black ;
+}
+dt{
+    font-weight:bold ;
+    text-decoration: underline;
+}
+dd{
+    margin: 0%;
+}
