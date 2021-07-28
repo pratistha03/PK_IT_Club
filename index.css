@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #ffffff;
 }
 
 #heading {
@@ -8,7 +9,12 @@ body {
     width: -webkit-fill-available;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5%;
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#033579;
 }
 
 #logan {
